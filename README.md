@@ -1,5 +1,21 @@
+#Test task
+
+##Installation commands:
+
+- `git clone https://github.com/Errormindk4/terminal.git`
+- `cd terminal`
+- `composer install`
+- `cp .env.example .env` 
+- `php artisan key:generate`
+- `php artisan test`
 
 ##Terminal implementation
+
+All new classes placed in the `app\Services` directory
+
+Pricing data stored in the tests `tests\Unit\ExampleTest.php` as the array of objects. 
+This file also contains test cases from your example 
+
 
 ### Pricing format:
 

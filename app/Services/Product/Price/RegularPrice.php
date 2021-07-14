@@ -17,6 +17,6 @@ class RegularPrice extends Price {
      */
     public function getTotal(int $count) :float
     {
-        return ($this->amount + ($this->amount * $this->tax / 100)) * $count;
+        return parent::getTotal($count);
     }
 }
