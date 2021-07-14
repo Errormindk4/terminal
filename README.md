@@ -1,6 +1,8 @@
-#Test task
 
-##Installation commands:
+
+# Test task
+
+## Installation commands:
 
 - `git clone https://github.com/Errormindk4/terminal.git`
 - `cd terminal`
@@ -9,7 +11,7 @@
 - `php artisan key:generate`
 - `php artisan test`
 
-##Terminal implementation
+## Terminal implementation
 
 All new classes placed in the `app\Services` directory
 
